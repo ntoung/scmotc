@@ -23,6 +23,6 @@
   "repository" :
   { 
      "type" : "git",
-     "url" : "http://github.com/ntoung/scmotc.git"
+     "url" : "https://github.com/ntoung/scmotc.git"
   }  
 }
