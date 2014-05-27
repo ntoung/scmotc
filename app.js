@@ -4,6 +4,8 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars');
 var app = express();
+var mongoose = require('mongoose');
+var userSchema = require('./userSchema');
 //load environment variables
 var dotenv = require('dotenv');
 dotenv.load();
@@ -11,6 +13,13 @@ dotenv.load();
 // Paths
 var index = require('./routes/index');
 var application = require('./routes/application');
+
+mongoose.connect('mongodb://localhost/test');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function callback() {
+	console.log('Connected to database');
+});
 
 //Configures the Template engine
 app.engine('handlebars', handlebars());
@@ -26,7 +35,15 @@ app.use(express.session({ secret: 'nyan cat'}));
 
 //routes
 app.get('/', index.view);
-app.get('/application', application.view);
+//app.get('/application', application.view);
+
+
+var User = mongoose.model('User', userSchema);
+var Nathan = new User({ name: 'Nathan' });
+Nathan.speak();
+
+
+
 
 //set environment ports and start application
 app.set('port', process.env.PORT || 3000);
