@@ -19,6 +19,19 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function callback() {
 	console.log('Connected to database');
+	var userSchema = mongoose.Schema({
+		name: String
+	})
+
+	userSchema.methods.speak = function speak() {
+		var greeting = this.name
+		? "My name is " + this.name
+		: "I don't have a name"
+		console.log(greeting);
+	}
+	var User = mongoose.model('User', userSchema);
+	var Nathan = new User({ "name": 'Nathan' });
+	Nathan.speak();
 });
 
 //Configures the Template engine
@@ -38,9 +51,7 @@ app.get('/', index.view);
 //app.get('/application', application.view);
 
 
-var User = mongoose.model('User', userSchema);
-var Nathan = new User({ name: 'Nathan' });
-Nathan.speak();
+
 
 
 
