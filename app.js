@@ -50,12 +50,6 @@ app.use(express.session({ secret: 'nyan cat'}));
 app.get('/', index.view);
 //app.get('/application', application.view);
 
-
-
-
-
-
-
 //set environment ports and start application
 app.set('port', process.env.PORT || 3000);
 http.createServer(app).listen(app.get('port'), function(){
