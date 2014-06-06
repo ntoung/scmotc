@@ -1,8 +1,10 @@
-var data = require('../data.json');
+var form = require('../form.json');
 /*
  * GET home page.
  */
 
+console.log(form);
+
 exports.view = function(req, res){
-  res.render('index', data);
+  res.render('index', form);
 };

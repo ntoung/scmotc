@@ -57,9 +57,9 @@ function initializePage() {
 		$.get(url_call, addProjectDetails);
 	});
 
-	$('#newProjectSubmitButton').click(function(e) {
+	$('#newApplicationSubmitButton').click(function(e) {
 		console.log('clicked');
-		var title = $('#new-project-form #title').val();
+		var title = $('#q1').val();
 		var image_url = $('#new-project-form #image_url').val();
 		var date = $('#new-project-form #date').val();
 		var summary = $('#new-project-form #summary').val();
@@ -73,4 +73,6 @@ function initializePage() {
 			window.location.href = '/'; // reload the page
 		});
 	});
+
+	$('#guidelineSignature').signature({guideline: true});
 }

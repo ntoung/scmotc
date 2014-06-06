@@ -1,3 +1,67 @@
 .login {
 	text-align: right;
 }
+
+.section-header {
+	width:100%;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #eee;
+}
+
+.form-field {
+	float: left;
+	width: auto;
+	margin-right: 10px;
+}
+
+.btn {
+	font-size: 17px;
+	border-radius: 0px;
+	margin-bottom: 2px;
+}
+
+.btn-ff {
+   margin: 0px 4px;
+   border-top: 1px solid #8a37ba;
+   background: #77289e;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7c3aab), to(#77289e));
+   background: -webkit-linear-gradient(top, #7c3aab, #77289e);
+   background: -moz-linear-gradient(top, #7c3aab, #77289e);
+   background: -ms-linear-gradient(top, #7c3aab, #77289e);
+   background: -o-linear-gradient(top, #7c3aab, #77289e);
+   background-color: transparent: ;
+   padding: 9px 18px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.btn-ff:hover {
+   border-top-color: #4d2878;
+   background: #4d2878;
+   color: #ccc;
+   }
+.btn-ff:active {
+   border-top-color: #341b5c;
+   background: #341b5c;
+   }
+
+.input-group {
+	width: 100%;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 26px;
+  line-height: 20px;
+}

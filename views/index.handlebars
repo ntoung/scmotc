@@ -21,58 +21,245 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-      <span>
-        <div class="input-group">
+  <header class="navbar navbar-static-top" id="top" role="banner">
+    <div class="row">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="../" class="navbar-brand"><strong>SCMOTC</strong></a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="../getting-started">Getting started</a>
+            </li>
+            <li>
+              <a href="../css">CSS</a>
+            </li>
+            
+          </ul>
+          <!-- <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                  <span class="sr-only">60% Complete</span>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form> -->
 
-
-        <button type="button" class="btn btn-default navbar-btn">Sign In</button>
-        <button type="button" class="btn btn-default navbar-btn">Register</button>
-        <!-- <ul class="dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu2">
-          <li role="presentation" class="dropdown-header">Dropdown header</li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation" class="dropdown-header">Dropdown header</li>
-        </ul> -->
-
-      </span>
+          <form class="navbar-form navbar-right" style="margin-right:0px">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Username">
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <button type="login" class="btn btn-default btn-sm"><strong>Log In</strong></button>
+            <a href="register">
+              <button type="register" class="btn btn-success btn-sm"><strong>Register</strong></button>
+            </a>
+          </form>
+          
+        </nav>
+      </div>
     </div>
-  </nav> 
+  </header>
 
-  <div class="alert alert-success">
-Well done! You successfully read this important alert message.
-</div>
   <div class="container">
-    <form role="form">
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    <div class="row">
+      <div class="col-md-9" role="main">
+
+        <form role="form">
+          <div class="form-group">
+            <!-- <label for="name_first">First Name</label> -->
+            <input type="text" class="form-control form-field" id="name_first" placeholder="First Name">
+            <input type="text" class="form-control form-field" id="name_middle" placeholder="Middle Name">
+            <input type="text" class="form-control form-field" id="name_last" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <!-- <label for="name_middle">Middle Name</label> -->
+            
+          </div>
+          <div class="form-group">
+            
+          </div>
+          <div class="form-group">
+            <input type="address" class="form-control" id="address" placeholder="Address">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="city" placeholder="City">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="zipcode" placeholder="Zipcode">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="county" placeholder="County">
+          </div>
+          <div class="form-group">
+            <label for="relation" class="form-control" id="relation">Are you or anyone in your immediate family a member of the Southern California Mothers of Twins Clubs, Inc.</label>
+            
+            <div class="input-group">
+              <span class="input-group-addon"><input type="checkbox"></span>
+              <input type="checkbox">
+            </div>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
+          </div>
+
+
+
+        </form>
+        <!-- <nav class="navbar navbar-default navbar-static-top" role="navigation"> -->
+
+          
+          <div class="input-group" style="width:100%">
+            {{#each form-field}}
+
+              {{#if section-header}}
+                <!-- Section Header -->
+                <h2 class="section-header">{{header}}</h2>
+              {{/if}}
+            
+              <!-- Radio -->
+            
+              
+              {{#if btn}}
+                <!-- button -->
+                <div class="form-field" id="{{id}}">
+
+                  <span>
+                  <h4>{{title}}
+                  
+                  {{#each response}}
+                    <div type="button" class="{{../input-type}}">{{this}}</div>
+                  {{/each}}
+                  </h4>
+                  </span>
+                </div>
+              {{/if}}
+              <!-- Input Field -->
+
+              <!-- Radio -->
+            <br>
+            {{/each}}
+          </div>
+
+
+          <div class="alert alert-success">
+            Well done! You successfully read this important alert message.
+          </div>
+      
+          <form role="form">
+            <div class="form-group">
+              <label for="userEmail">Email address</label>
+              <input type="email" class="form-control" id="userEmail" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
+            </div>
+            <button id="newProjectSubmitButton" type="button" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          
+          <span>
+            <div class="input-group">
+
+
+            
+            </div>
+
+          </span>
+        <!-- </nav>  -->
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      <div class="col-md-3">
+        <div class="bs-docs-sidebar hidden-print" role="complementary">
+          <ul class="nav bs-docs-sidenav">
+              <li>
+                <a href="#glyphicons">Personal Information</a>
+                <ul class="nav">
+                  <li><a href="#p-information-basic">Basic</a></li>
+                  <li><a href="#p-information-educational">Educational</a></li>
+                  <li><a href="#p-information-plans">Plans</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#dropdowns">Financial Information</a>
+                <ul class="nav">
+                  <li><a href="#dropdowns-example">Example</a></li>
+                  <li><a href="#dropdowns-alignment">Alignment options</a></li>
+                  <li><a href="#dropdowns-headers">Headers</a></li>
+                  <li><a href="#dropdowns-disabled">Disabled menu items</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#btn-groups">Button groups</a>
+                <ul class="nav">
+                  <li><a href="#btn-groups-single">Basic example</a></li>
+                  <li><a href="#btn-groups-toolbar">Button toolbar</a></li>
+                  <li><a href="#btn-groups-sizing">Sizing</a></li>
+                  <li><a href="#btn-groups-nested">Nesting</a></li>
+                  <li><a href="#btn-groups-vertical">Vertical variation</a></li>
+                  <li><a href="#btn-groups-justified">Justified link variation</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#btn-dropdowns">Button dropdowns</a>
+                <ul class="nav">
+                  <li><a href="#btn-dropdowns-single">Single button dropdowns</a></li>
+                  <li><a href="#btn-dropdowns-split">Split button dropdowns</a></li>
+                  <li><a href="#btn-dropdowns-sizing">Sizing</a></li>
+                  <li><a href="#btn-dropdowns-dropup">Dropup variation</a></li>
+                </ul>
+              </li>             
+            <a class="back-to-top" href="#top">
+              Back to top
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="exampleInputFile">File input</label>
-        <input type="file" id="exampleInputFile">
-        <p class="help-block">Example block-level help text here.</p>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> Check me out
-        </label>
-      </div>
-      <button id="newProjectSubmitButton" type="button" class="btn btn-default">Submit</button>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    </div>
   </div>
 
    
-        
-
-
-  </div>
-
 
 
       <!-- <div class="container">

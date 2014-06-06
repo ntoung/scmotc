@@ -9,7 +9,7 @@
     "express": "3.x",
     "express3-handlebars": "*",
     "mongodb": "*",
-    "mongoose": "*",
+    "mongoose": "3.5.x",
     "passport": "*",
     "passport-facebook": "*",
     "passport-twitter": "*",
@@ -20,9 +20,8 @@
   "engines": {
     "node": "0.10.x"
   },
-  "repository" :
-  { 
-     "type" : "git",
-     "url" : "https://github.com/ntoung/scmotc.git"
-  }  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntoung/scmotc.git"
+  }
 }
