@@ -42,14 +42,35 @@
 		},
 		{
 			"id": "p4",
-			"title": "dob",
-			"input-type": ""
+			"input-type": "",
+			"response": [
+				"Email"
+			]
 		},
 		{
 			"id": "p5",
-			"title": "relation",
 			"input-type": "",
-			"placeholder": "Explain",
+			"response": [
+				"Home Phone"
+			]
+		},
+		{
+			"id": "p6",
+			"input-type": "",
+			"response": [
+				"Mobile Phone"
+			]
+		},
+		{
+			"id": "p7",
+			"input-type": "",
+			"response": [
+				"Date of Birth"
+			]
+		},
+		{
+			"id": "p5",
+			"input-type": "",
 			"response": [
 				""
 			]
