@@ -589,20 +589,134 @@
 			"section-header": true,
 			"header": "Work Experience"
 		},
-
+		{
+			"id": "11",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Place of Employment"
+			]
+		},
+		{
+			"id": "w2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Job Title"
+			]
+		},
+		{
+			"id": "w3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Started"
+			]
+		},
+		{
+			"id": "w4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Ended"
+			]
+		},
+		{
+			"id": "w5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Hourly Rate $"
+			]
+		},
+		{
+			"id": "w6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Full Time/Part Time"
+			]
+		},
 		{
 			"section-header": true,
 			"header": "Extracurricular Activities"
 		},
-
 		{
-			"section-header": true,
-			"header": "Application Checklist"
+			"id": "e1",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Years"
+			]
+		},
+		{
+			"id": "e2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Student Government/Clubs/Activities"
+			]
+		},
+		{
+			"id": "e3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Position/Participation/Contribution"
+			]
+		},
+		{
+			"id": "e4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Years"
+			]
+		},
+		{
+			"id": "e5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Community/Service Organization"
+			]
+		},
+		{
+			"id": "e6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Position/Participation/Contribution"
+			]
+		},
+		{
+			"id": "e7",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Years"
+			]
+		},
+		{
+			"id": "e8",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Other"
+			]
+		},
+		{
+			"id": "e9",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Position/Participation/Contribution"
+			]
 		},
 		{
 			"section-header": true,
 			"header": "Application Checklist"
-		}
+		},
 		{
 			"id": "a1",
 			"input-type": "",
@@ -612,11 +726,35 @@
 			]
 		},
 		{
-			"id": "i6",
+			"id": "a2",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Spouse's Employer Address including Zipcode"
+				"Most Current Official Transcript"
+			]
+		},
+		{
+			"id": "a3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Two (2) letters of recommendation from non-family members. Please ask them to include phone numbers for possible follow-up contact by the Scholarship Commmitee"
+			]
+		},
+		{
+			"id": "a4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Written Essay (minimum 300 words) on why you wish to continue your education and why you believe you should be considered for this scholarship award. Please include information on being a multiple or mother of multiples, family financial difficulties, career and educational goals. "
+			]
+		},				
+		{
+			"id": "a5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Attach a recent photograph of yourself to Application (photographs will not be returned)"
 			]
 		},
 		{
