@@ -201,14 +201,125 @@
 				"Last Name"
 			]
 		},
+
 		{
-			"section-header": true,
-			"header": "Written Response"
+			"subsection-header": true,
+			"header": "Other sources of income (AFDC, Social Security, Unemployment, Child Support, etc)"
 		},
 
 		{
-			"section-header": true,
-			"header": "Written Response"
+			"textarea": true,
+			"id": "text1",
+			"placeholder": "Enter other sources of income"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Please list any other financial obligations (car payment, childcare, etc)"
+		},
+
+		{
+			"textarea": true,
+			"id": "text2",
+			"placeholder": "Other financial obligations"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Please explain any special financial circumstances which may prevent financial assistance from your parents:"
+		},
+
+		{
+			"textarea": true,
+			"id": "text3",
+			"placeholder": "Other financial circumstances"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "How much do you plan to contribute toward your education from present earning/savings? If you do not plan to work, please explain why"
+		},
+
+		{
+			"textarea": true,
+			"id": "text4",
+			"placeholder": "Earnings"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Have you applied or been awarded any other scholarships? If yes, please list from whom and amounts awarded:"
+		},
+
+		{
+			"textarea": true,
+			"id": "text5",
+			"placeholder": "Other scholarships"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "End of SECTION A: DEPENDENT STUDENTS, Proceed to Work Experience Section"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Other sources of income (AFDC, Social Security, Unemployment, Child Support, etc)"
+		},
+
+		{
+			"textarea": true,
+			"id": "text6",
+			"placeholder": "Enter other sources of income"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Please list any other financial obligations (car payment, childcare, etc)"
+		},
+
+		{
+			"textarea": true,
+			"id": "text7",
+			"placeholder": "Other financial obligations"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Please explain any special financial circumstances"
+		},
+
+		{
+			"textarea": true,
+			"id": "text8",
+			"placeholder": "Special financial circumstances"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "How much do you plan to contribute toward your education from present earning/savings? If you do not plan to work, please explain why"
+		},
+
+		{
+			"textarea": true,
+			"id": "text9",
+			"placeholder": "Contribution"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "Have you applied or been awarded any other scholarships? If yes, please list from whom and amounts awarded:"
+		},
+
+		{
+			"textarea": true,
+			"id": "text10",
+			"placeholder": "Other scholarships"
+		},
+
+		{
+			"subsection-header": true,
+			"header": "End of SECTION B: INDEPENDENT STUDENTS, Proceed to Work Experience Section"
 		},
 
 		{
