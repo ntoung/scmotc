@@ -69,10 +69,19 @@
 			]
 		},
 		{
-			"id": "p5",
+			"id": "p8",
 			"input-type": "",
 			"response": [
-				""
+				"Are you or anyone in your immediate family a member of the Southern California Mothers of Twins Clubs, Inc.?",
+				"Yes",
+				"No"		
+			]
+		},
+		{
+			"id": "p9",
+			"input-type": "",
+			"response": [
+				"If yes, please explain:"
 			]
 		},
 		{
@@ -80,17 +89,47 @@
 			"header": "Educational Background"
 		},
 		{
-			"id": "p6",
-			"title": "name",
+			"id": "p10",
 			"input-type": "",
-			"placeholder": "",
 			"response": [
-				"School Currently Attending",
-				"Graduation Date",
-				"Mailing Address",
-				"Zip Code",
-				"Telephone",
-				"Principal's Name",
+				"School Currently Attending"
+			]
+		},
+		{
+			"id": "p11",
+			"input-type": "",
+			"response": [
+				"Graduation Date"
+			]
+		},
+		{
+			"id": "p12",
+			"input-type": "",
+			"response": [
+				"Address",
+				"City",
+				"State",
+				"Zipcode"
+			]
+		},
+		{
+			"id": "p13",
+			"input-type": "",
+			"response": [
+				"School Phone"
+			]
+		},
+		{
+			"id": "p14",
+			"input-type": "",
+			"response": [
+				"Principal's Name"
+			]
+		},
+		{
+			"id": "p15",
+			"input-type": "",
+			"response": [
 				"Counselor's Name"
 			]
 		},
@@ -99,7 +138,7 @@
 			"header": "Educational or Career Plans"
 		},
 		{
-			"id": "p7",
+			"id": "p16",
 			"title": "plans",
 			"input-type": "",
 			"placeholder": "",
@@ -110,18 +149,23 @@
 			]
 		},
 		{
-			"id": "p8",
+			"id": "p17",
 			"title": "name",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Name of Institution or School",
-				"Mailing Address",
-				"Zip Code"
+				"Name of Institution or School Planning to Attend"
 			]
 		},
 		{
-			"id": "p9",
+			"id": "p18",
+			"input-type": "",
+			"response": [
+				"School Mailing Address including Zipcode"
+			]
+		},
+		{
+			"id": "p19",
 			"title": "Have you received written acceptance to this school?",
 			"input-type": "",
 			"placeholder": "",
@@ -131,24 +175,23 @@
 			]
 		},
 		{
-			"id": "p10",
+			"id": "p20",
 			"title": "Intended Living Situation",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Campus",
-				"Off Campus",
-				"Commute"
+				"On-Campus",
+				"Off Campus/Commute"
 			]
 		},	
 		{
-			"id": "p11",
+			"id": "p21",
 			"title": "Attendance",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Full-Time",
-				"Part-Time"
+				"Full-Time (12 units or more)",
+				"Part-Time (Less than 12 units)"
 			]
 		},
 		{
@@ -172,15 +215,38 @@
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Employer Name",
-				"Net Monthly Income",
-				"Mailing Address",
-				"Zip Code",
-				"Telephone"
+				"Employer Name"
 			]
 		},
 		{
 			"id": "f3",
+			"title": "",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Net Monthly Income"
+			]
+		},
+		{
+			"id": "f4",
+			"title": "",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mailing Address including Zipcode",
+			]
+		},
+		{
+			"id": "f5",
+			"title": "",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Employer Phone"
+			]
+		},
+		{
+			"id": "f6",
 			"title": "Do you plan to work while attending school?",
 			"input-type": "",
 			"placeholder": "",
