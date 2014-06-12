@@ -257,6 +257,10 @@
 			]
 		},
 		{
+			"subsection-header": true,
+			"header": "Please complete Section A if dependent and Section B if independent"
+		},
+		{
 			"id": "f4",
 			"title": "Are you currently",
 			"input-type": "",
@@ -463,7 +467,7 @@
 		},
 		{
 			"section-header": true,
-			"header": "SECTION B: INDEPENDENT STUDENTS, Proceed to Work Experience Section"
+			"header": "Section B: Independent Students"
 		},
 		{
 			"id": "i1",
@@ -590,6 +594,10 @@
 			"header": "Work Experience"
 		},
 		{
+			"subsection-header": true,
+			"header": "List all employment since June of last year:"
+		},
+		{
 			"id": "11",
 			"input-type": "",
 			"placeholder": "",
@@ -640,6 +648,10 @@
 		{
 			"section-header": true,
 			"header": "Extracurricular Activities"
+		},
+		{
+			"subsection-header": true,
+			"header": "List school and/or community organization. Include year(s) of involvement, positions of leadership held and/or your participation in activity."
 		},
 		{
 			"id": "e1",
@@ -760,7 +772,10 @@
 		{
 			"section-header": true,
 			"header": "Certification"
+		},
+		{
+			"subsection-header": true,
+			"header": "In submitting this application, I certify that the information provided is complete and accurate to the best of my knowledge. I understand that my application will only be considered if all eligibility requirements are met and all materials are postmarked on or before the deadline"
 		}
-
 	]
 }
