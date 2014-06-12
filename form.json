@@ -70,9 +70,9 @@
 		},
 		{
 			"id": "p8",
+			"title": "Are you or anyone in your immediate family a member of the Southern California Mothers of Twins Clubs, Inc.?",
 			"input-type": "",
 			"response": [
-				"Are you or anyone in your immediate family a member of the Southern California Mothers of Twins Clubs, Inc.?",
 				"Yes",
 				"No"		
 			]
@@ -233,7 +233,7 @@
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Mailing Address including Zipcode",
+				"Mailing Address including Zipcode"
 			]
 		},
 		{
@@ -267,28 +267,141 @@
 			]
 		},
 		{
-			"id": "p16",
-			"title": "name",
+			"section-header": true,
+			"header": "Section A: Dependent Students"
+		},
+		{
+			"id": "d1",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"First Name",
-				"Middle",
-				"Last Name"
+				"Total number of dependent children living at home"
 			]
 		},
 		{
-			"id": "p17",
+			"id": "d2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Ages of Dependent Children"
+			]
+		},						
+		{
+			"id": "d3",
 			"title": "name",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"First Name",
-				"Middle",
-				"Last Name"
+				"Father/Guardian's Name"
 			]
 		},
-
+		{
+			"id": "d4",
+			"title": "Do you live with him?",
+			"input-type": "",
+			"response": [
+				"Yes",
+				"No"
+			]
+		},
+		{
+			"id": "d5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Father/Guardian's Address including Zipcode"
+			]
+		},		
+		{
+			"id": "d6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Telephone"
+			]
+		},
+		{
+			"id": "d7",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Father/Guardian's Employer"
+			]
+		},
+		{
+			"id": "d8",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Income per Month: $"
+			]
+		},						
+		{
+			"id": "d9",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Father/Guardian's Employer Address including Zipcode"
+			]
+		},
+		{
+			"id": "d10",
+			"title": "name",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Name"
+			]
+		},
+		{
+			"id": "d11",
+			"title": "Do you live with her?",
+			"input-type": "",
+			"response": [
+				"Yes",
+				"No"
+			]
+		},
+		{
+			"id": "d12",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Address including Zipcode"
+			]
+		},		
+		{
+			"id": "d13",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Telephone"
+			]
+		},
+		{
+			"id": "d14",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Employer"
+			]
+		},
+		{
+			"id": "d15",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Income per Month: $"
+			]
+		},						
+		{
+			"id": "d16",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Employer Address including Zipcode"
+			]
+		},				
 		{
 			"subsection-header": true,
 			"header": "Other sources of income (AFDC, Social Security, Unemployment, Child Support, etc)"
@@ -330,7 +443,7 @@
 		{
 			"textarea": true,
 			"id": "text4",
-			"placeholder": "Earnings"
+			"placeholder": "Contributions toward education"
 		},
 
 		{
