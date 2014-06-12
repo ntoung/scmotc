@@ -461,7 +461,70 @@
 			"subsection-header": true,
 			"header": "End of SECTION A: DEPENDENT STUDENTS, Proceed to Work Experience Section"
 		},
-
+		{
+			"section-header": true,
+			"header": "SECTION B: INDEPENDENT STUDENTS, Proceed to Work Experience Section"
+		},
+		{
+			"id": "i1",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Single",
+				"Married",
+				"Separated",
+				"Divorced",
+				"Widowed"
+			]
+		},
+		{
+			"id": "i2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Total number of dependent children living at home"
+			]
+		},		
+		{
+			"id": "i3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Ages of Dependent Children"
+			]
+		},	
+		{
+			"id": "i4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Spouse's Name"
+			]
+		},
+		{
+			"id": "i5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Income per Month: $"
+			]
+		},						
+		{
+			"id": "i6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Spouse's Employer Address including Zipcode"
+			]
+		},
+		{
+			"id": "i7",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Telephone"
+			]
+		},	
 		{
 			"subsection-header": true,
 			"header": "Other sources of income (AFDC, Social Security, Unemployment, Child Support, etc)"
@@ -539,6 +602,26 @@
 		{
 			"section-header": true,
 			"header": "Application Checklist"
+		}
+		{
+			"id": "a1",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Completed and Signed SCMOTC Scholarship Application"
+			]
+		},
+		{
+			"id": "i6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Spouse's Employer Address including Zipcode"
+			]
+		},
+		{
+			"section-header": true,
+			"header": "Certification"
 		}
 
 	]
