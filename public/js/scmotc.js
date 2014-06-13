@@ -133,7 +133,7 @@ $('#newApplicationSubmitButton').click(function(e)){
 	var financial_info_mailing_address_city = $('#f4').val();
 	var financial_info_work_during_school = $('#f6').val();
 
-	var dependent = $('#f4').val();
+	var dependent = $('#di1').val();
 	var dependent_children_amount = $('#d1').val();
 	var dependent_children_ages = $('#d2').val();
 

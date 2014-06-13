@@ -20,54 +20,39 @@
 			]
 		},
 		{
+			"textLine": true,
 			"id": "p2",
-			"input-type": "input type=",
-			"placeholder": "",
-			"response": [
-				"First Name",
-				"Middle",
-				"Last Name"
-			]
+			"response":  "First, Middle, Last Name"
 		},
 		{
+			"textLine": true,
 			"id": "p3",
-			"title": "address",
-			"input-type": "",
-			"response": [
-				"Address",
-				"City",
-				"State",
-				"Zip",
-				"Country"
-			]
+			"response": "Address, City, State, Zip, County"
 		},
 		{
+			"email": true,
 			"id": "p4",
-			"input-type": "",
-			"response": [
-				"Email"
-			]
+			"response": "Email"
+
 		},
 		{
+			"telephone": true,
 			"id": "p5",
-			"input-type": "",
-			"response": [
-				"Home Phone"
-			]
+			"response": "Home Phone"
 		},
 		{
+			"telephone": true,
 			"id": "p6",
-			"input-type": "",
-			"response": [
-				"Mobile Phone"
-			]
+			"response": "Mobile Phone"
 		},
 		{
+			"date": true,
 			"id": "p7",
-			"input-type": "",
-			"response": [
-				"Date of Birth"
-			]
+			"response": "Date of Birth"
+		},
+		{
+			"subsection-header": true,
+			"header": "Are you or anyone in your immediate family a member of the Southern California Mothers of Twins Clubs, Inc.?"
 		},
 		{
 			"id": "p8",
@@ -79,11 +64,9 @@
 			]
 		},
 		{
+			"textarea": true,
 			"id": "p9",
-			"input-type": "",
-			"response": [
-				"If yes, please explain:"
-			]
+			"placeholder": "If yes, please explain:"
 		},
 		{
 			"section-header": true,
@@ -91,49 +74,34 @@
 			"id": "educationID"
 		},
 		{
+			"textLine": true,
 			"id": "p10",
-			"input-type": "",
-			"response": [
-				"School Currently Attending"
-			]
+			"response": "School Currently Attending"
 		},
 		{
+			"date": true,
 			"id": "p11",
-			"input-type": "",
-			"response": [
-				"Graduation Date"
-			]
+			"response": "Graduation Date"
 		},
 		{
+			"textLine": true,
 			"id": "p12",
-			"input-type": "",
-			"response": [
-				"Address",
-				"City",
-				"State",
-				"Zipcode"
-			]
+			"response": "Address, City, State, Zipcode"
 		},
 		{
+			"telephone": true,
 			"id": "p13",
-			"input-type": "",
-			"response": [
-				"School Phone"
-			]
+			"response": "School Phone"
 		},
 		{
+			"textLine": true,
 			"id": "p14",
-			"input-type": "",
-			"response": [
-				"Principal's Name"
-			]
+			"response": "Principal's Name"
 		},
 		{
+			"textLine": true,
 			"id": "p15",
-			"input-type": "",
-			"response": [
-				"Counselor's Name"
-			]
+			"response": "Counselor's Name"
 		},
 		{
 			"section-header": true,
@@ -152,20 +120,19 @@
 			]
 		},
 		{
+			"textLine": true,
 			"id": "p17",
-			"title": "name",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Name of Institution or School Planning to Attend"
-			]
+			"response": "Name of Institution or School Planning to Attend"
 		},
 		{
+			"textLine": true,
 			"id": "p18",
-			"input-type": "",
-			"response": [
-				"School Mailing Address including Zipcode"
-			]
+			"response": "School Mailing Address including Zipcode"
+		},
+		{
+			"subsection-header": true,
+			"header": "Have you received written acceptance to this school?"
+
 		},
 		{
 			"id": "p19",
@@ -178,6 +145,10 @@
 			]
 		},
 		{
+			"subsection-header": true,
+			"header": "Intended Living Situation:"
+		},
+		{
 			"id": "p20",
 			"title": "Intended Living Situation",
 			"input-type": "",
@@ -187,6 +158,10 @@
 				"Off Campus/Commute"
 			]
 		},	
+		{	
+			"subsection-header": true,
+			"header": "Attendence:"
+		},
 		{
 			"id": "p21",
 			"title": "Attendance",
@@ -203,6 +178,10 @@
 			"id": "financialID"
 		},
 		{
+			"subsection-header": true,
+			"header": "Employment Status:"
+		},
+		{
 			"id": "f1",
 			"title": "Employment Status",
 			"input-type": "",
@@ -214,47 +193,34 @@
 			]
 		},
 		{
+			"textLine": true,
 			"id": "f2",
-			"title": "",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Employer Name"
-			]
+			"response": "Employer Name"
 		},
 		{
+			"textLine": true,
 			"id": "f3",
-			"title": "",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Net Monthly Income"
-			]
+			"response": "Net Monthly Income(include dollar sign)"
 		},
 		{
+			"textLine": true,
 			"id": "f4",
-			"title": "",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Mailing Address including Zipcode"
-			]
+			"response": "Mailing Address including Zipcode"
 		},
 		{
+			"telephone": true,
 			"id": "f5",
-			"title": "",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Employer Phone"
-			]
+			"response": "Employer Phone"
 		},
 		{
+			"subsection-header": true,
+			"header": "Do you plan to work while attending school?"
+		},
+		{
+			"checkbox": true,
 			"id": "f6",
 			"title": "Do you plan to work while attending school?",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"box": [
 				"Full-Time",
 				"Part-Time",
 				"Currently Unemployed"
@@ -265,7 +231,11 @@
 			"header": "Please complete Section A if dependent and Section B if independent"
 		},
 		{
-			"id": "f4",
+			"subsection-header": true,
+			"header": "Are you currently:"
+		},
+		{
+			"id": "di1",
 			"title": "Are you currently",
 			"input-type": "",
 			"placeholder": "",
@@ -279,29 +249,23 @@
 			"header": "Section A: Dependent Students"
 		},
 		{
+			"number": true,
 			"id": "d1",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Total number of dependent children living at home"
-			]
+			"response": "Total number of dependent children living at home"
 		},
 		{
+			"number": true,
 			"id": "d2",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Ages of Dependent Children"
-			]
+			"response": "Ages of Dependent Children"
 		},						
 		{
+			"textLine": true,
 			"id": "d3",
-			"title": "name",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Father/Guardian's Name"
-			]
+			"response": "Father/Guardian's Name"
+		},
+		{
+			"subsection-header": true,
+			"header": "Do you live with him?"
 		},
 		{
 			"id": "d4",
@@ -313,53 +277,39 @@
 			]
 		},
 		{
+			"textLine": true,
 			"id": "d5",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Father/Guardian's Address including Zipcode"
-			]
 		},		
 		{
+			"telephone": true,
 			"id": "d6",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Telephone"
-			]
+			"response": "Telephone"
 		},
 		{
+			"textLine": true,
 			"id": "d7",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Father/Guardian's Employer"
-			]
+			"response": "Father/Guardian's Employer"
 		},
 		{
+			"textLine": true,
 			"id": "d8",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Income per Month: $"
-			]
+			"response": "Income per Month: $"
 		},						
 		{
+			"textLine": true,
 			"id": "d9",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Father/Guardian's Employer Address including Zipcode"
-			]
+			"response": "Father/Guardian's Employer Address including Zipcode"
 		},
 		{
+			"textLine": true,
 			"id": "d10",
-			"title": "name",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Mother/Guardian's Name"
-			]
+			"response": "Mother/Guardian's Name"
+		},
+		{
+			"subsection-header": true,
+			"header": "Do you live with her?"
 		},
 		{
 			"id": "d11",
@@ -371,44 +321,31 @@
 			]
 		},
 		{
+			"textLine": true,
 			"id": "d12",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Mother/Guardian's Address including Zipcode"
-			]
+			"response": "Mother/Guardian's Address including Zipcode"
 		},		
 		{
+			"telephone": true,
 			"id": "d13",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Telephone"
-			]
+			"response": "Telephone"
 		},
 		{
+			"textLine": true,
 			"id": "d14",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Mother/Guardian's Employer"
-			]
+			"response": "Mother/Guardian's Employer"
 		},
 		{
+			"textLine": true,
 			"id": "d15",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Income per Month: $"
-			]
 		},						
 		{
+			"textLine": true,
 			"id": "d16",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Mother/Guardian's Employer Address including Zipcode"
-			]
 		},				
 		{
 			"subsection-header": true,
@@ -486,52 +423,40 @@
 			]
 		},
 		{
+			"number": true,
 			"id": "i2",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Total number of dependent children living at home"
-			]
 		},		
 		{
+			"number": true,
 			"id": "i3",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Ages of Dependent Children"
-			]
 		},	
 		{
+			"textLine": true,
 			"id": "i4",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Spouse's Name"
-			]
 		},
 		{
+			"textLine": true,
 			"id": "i5",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Income per Month: $"
-			]
 		},						
 		{
+			"textLine": true,
 			"id": "i6",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Spouse's Employer Address including Zipcode"
-			]
 		},
 		{
+			"telephone": true,
 			"id": "i7",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"response": 
 				"Telephone"
-			]
 		},	
 		{
 			"subsection-header": true,
@@ -660,77 +585,176 @@
 			"header": "List school and/or community organization. Include year(s) of involvement, positions of leadership held and/or your participation in activity."
 		},
 		{
+			"minisection-header": true,
+			"instruction": [
+				"Years",
+				"Student Government",
+				"Position"
+			]
+		},
+		{
+			"inlineText": true, 
 			"id": "e1",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Years"
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
+				"Position/Participation/Contribution"
 			]
+
 		},
 		{
+			"inlineText": true,
 			"id": "e2",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Student Government/Clubs/Activities"
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
+				"Position/Participation/Contribution"
 			]
 		},
 		{
+			"inlineText": true, 
 			"id": "e3",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
 				"Position/Participation/Contribution"
 			]
 		},
 		{
+			"inlineText": true, 
 			"id": "e4",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Years"
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
+				"Position/Participation/Contribution"
 			]
 		},
 		{
+			"inlineText": true, 
 			"id": "e5",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Community/Service Organization"
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
+				"Position/Participation/Contribution"
 			]
 		},
 		{
+			"inlineText": true, 
 			"id": "e6",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
 				"Position/Participation/Contribution"
 			]
-		},
+		},			
 		{
+			"inlineText": true, 
 			"id": "e7",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Years"
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
+				"Position/Participation/Contribution"
 			]
-		},
+		},	
 		{
+			"inlineText": true, 
 			"id": "e8",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
-				"Other"
-			]
-		},
-		{
-			"id": "e9",
-			"input-type": "",
-			"placeholder": "",
-			"response": [
+			"textbox": [
+				"Years",
+				"Student Government/Clubs/Activities",
 				"Position/Participation/Contribution"
 			]
 		},
+		{
+			"inlineText": true, 
+			"id": "e9",
+			"textbox": [
+				"Years",
+				"Community/Service Organization",
+				"Position/Participation/Contribution"
+			]
+		},		
+		{
+			"inlineText": true, 
+			"id": "e10",
+			"textbox": [
+				"Years",
+				"Community/Service Organization",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e11",
+			"textbox": [
+				"Years",
+				"Community/Service Organization",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e12",
+			"textbox": [
+				"Years",
+				"Community/Service Organization",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e13",
+			"textbox": [
+				"Years",
+				"Community/Service Organization",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e14",
+			"textbox": [
+				"Years",
+				"Community/Service Organization",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e15",
+			"textbox": [
+				"Years",
+				"Other",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e16",
+			"textbox": [
+				"Years",
+				"Other",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e17",
+			"textbox": [
+				"Years",
+				"Other",
+				"Position/Participation/Contribution"
+			]
+		},	
+		{
+			"inlineText": true, 
+			"id": "e18",
+			"textbox": [
+				"Years",
+				"Other",
+				"Position/Participation/Contribution"
+			]
+		},	
 		{
 			"section-header": true,
 			"header": "Application Checklist",

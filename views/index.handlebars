@@ -106,12 +106,89 @@
                   <h4 class="subsection-header">{{header}}</h4>
               </div>
               {{/if}}
+
+              {{#if minisection-header}}
+                <!-- Sub Section Header -->
+                {{#each instruction}}
+                <div class="col-xs-4">
+                  <h4 class="subsection-header">{{this}}</h4>
+                </div>
+                {{/each}}
+              {{/if}}
             
               <!-- Radio -->
               {{#if textarea}}
                 <textarea class="form-control" rows="3">{{placeholder}}</textarea>
               {{/if}}
-            
+
+              <!--one line text input-->
+              {{#if textLine}}
+                <div> 
+                  <input type="text" class="form-control" placeholder="{{response}}">
+                  </input>
+                </div>
+                <br>
+              {{/if}}
+
+              <!--telephone numbers-->
+              {{#if telephone}}
+                <div> 
+                  <input type="tel" class="form-control" placeholder="{{response}}">
+                  </input>
+                </div>
+                <br>
+              {{/if}}
+
+              <!--date input-->
+              {{#if date}}
+                <div> 
+                  <input type="date" class="form-control" placeholder="{{response}}">
+                  </input>
+                </div>
+                <br>
+              {{/if}}
+
+              <!--email-->
+              {{#if email}}
+                <div> 
+                  <input type="email" class="form-control" placeholder="{{response}}">
+                  </input>
+                </div>
+                <br>
+              {{/if}}
+
+              <!--number-->
+              {{#if number}}
+                <div> 
+                  <input type="number" class="form-control" placeholder="{{response}}">
+                  </input>
+                </div>
+                <br>
+              {{/if}}
+
+              <!--Produces 3 inline textboxes-->
+              {{#if inlineText}}
+                {{#each textbox}}
+                <div class="col-xs-4">
+                  <!--{{#if instruction}}
+                    <h6 class="section-header">{{display}}</h6>
+                  {{/if}}-->
+                  <input type="text" class="form-control" placeholder= "{{this}}">
+                  </input>
+                </div>
+                {{/each}}
+                <br>
+              {{/if}}
+
+              <!--Checkboxes-->
+              {{#if checkbox}}
+                {{#each box}}
+                  <input type="checkbox" class="form-control" > {{this}}
+                  </input>
+                {{/each}}
+                <br>
+              {{/if}}
+
               {{#if btn}}
                 <!-- button -->
                 <div class="form-field" id="{{id}}">
@@ -127,9 +204,6 @@
                 </div>
               {{/if}}
               <!-- Input Field -->
-
-
-
               <!-- Radio -->
             <br>
             {{/each}}
