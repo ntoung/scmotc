@@ -2,6 +2,7 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
+var bcrypt = require('bcrypt');
 var handlebars = require('express3-handlebars');
 var app = express();
 var mongoose = require('mongoose');
@@ -23,6 +24,7 @@ db.once('open', function callback() {
 	
 	// var User = mongoose.model('user', userSchema);
 	var nathan = new userSchema.User({ name: 'Nathan' });
+
 	
 	// nathan.speak();
 	// nathan.save();

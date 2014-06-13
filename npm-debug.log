@@ -21,32 +21,32 @@
 7 verbose parsed url   path: 'bcrypt',
 7 verbose parsed url   href: 'bcrypt' }
 8 silly lockFile 51684124-bcrypt bcrypt
-9 verbose lock bcrypt C:\Users\Shaina Wan\AppData\Roaming\npm-cache\51684124-bcrypt.lock
+9 verbose lock bcrypt C:\Users\User\AppData\Roaming\npm-cache\51684124-bcrypt.lock
 10 silly lockFile 51684124-bcrypt bcrypt
 11 silly lockFile 51684124-bcrypt bcrypt
 12 verbose addNamed [ 'bcrypt', '' ]
 13 verbose addNamed [ null, '*' ]
 14 silly lockFile 1351601c-bcrypt bcrypt@
-15 verbose lock bcrypt@ C:\Users\Shaina Wan\AppData\Roaming\npm-cache\1351601c-bcrypt.lock
+15 verbose lock bcrypt@ C:\Users\User\AppData\Roaming\npm-cache\1351601c-bcrypt.lock
 16 silly addNameRange { name: 'bcrypt', range: '*', hasData: false }
 17 verbose url raw bcrypt
 18 verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt' ]
 19 verbose url resolved https://registry.npmjs.org/bcrypt
-20 info trying registry request attempt 1 at 14:41:56
+20 info trying registry request attempt 1 at 21:57:32
 21 verbose etag "H6XFJLT7TPWZD0BGNTSY98PV"
 22 http GET https://registry.npmjs.org/bcrypt
 23 http 304 https://registry.npmjs.org/bcrypt
 24 silly registry.get cb [ 304,
-24 silly registry.get   { date: 'Fri, 06 Jun 2014 21:42:01 GMT',
+24 silly registry.get   { date: 'Fri, 13 Jun 2014 04:57:32 GMT',
 24 silly registry.get     server: 'Apache',
 24 silly registry.get     via: '1.1 varnish',
-24 silly registry.get     'last-modified': 'Fri, 06 Jun 2014 21:42:01 GMT',
+24 silly registry.get     'last-modified': 'Fri, 13 Jun 2014 04:57:32 GMT',
 24 silly registry.get     'cache-control': 'max-age=1',
 24 silly registry.get     etag: '"H6XFJLT7TPWZD0BGNTSY98PV"',
-24 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
-24 silly registry.get     'x-cache': 'MISS',
-24 silly registry.get     'x-cache-hits': '0',
-24 silly registry.get     'x-timer': 'S1402090921.901818,VS0,VE41',
+24 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1402635452.650827,VS0,VE82',
 24 silly registry.get     vary: 'Accept',
 24 silly registry.get     'content-length': '0',
 24 silly registry.get     'keep-alive': 'timeout=10, max=50',
@@ -80,7 +80,7 @@
 28 verbose addNamed [ 'bcrypt', '0.7.8' ]
 29 verbose addNamed [ '0.7.8', '0.7.8' ]
 30 silly lockFile 764f2767-bcrypt-0-7-8 bcrypt@0.7.8
-31 verbose lock bcrypt@0.7.8 C:\Users\Shaina Wan\AppData\Roaming\npm-cache\764f2767-bcrypt-0-7-8.lock
+31 verbose lock bcrypt@0.7.8 C:\Users\User\AppData\Roaming\npm-cache\764f2767-bcrypt-0-7-8.lock
 32 silly lockFile 764f2767-bcrypt-0-7-8 bcrypt@0.7.8
 33 silly lockFile 764f2767-bcrypt-0-7-8 bcrypt@0.7.8
 34 silly lockFile 1351601c-bcrypt bcrypt@
@@ -132,14 +132,14 @@
 36 silly resolved     _shasum: '42c99aac202918e947b5bd086110184f62745e3e',
 36 silly resolved     _from: 'bcrypt@',
 36 silly resolved     _resolved: 'https://registry.npmjs.org/bcrypt/-/bcrypt-0.7.8.tgz' } ]
-37 info install bcrypt@0.7.8 into c:\Users\Shaina Wan\scmotc
+37 info install bcrypt@0.7.8 into c:\Users\User\scmotc
 38 info installOne bcrypt@0.7.8
-39 info c:\Users\Shaina Wan\scmotc\node_modules\bcrypt unbuild
-40 verbose tar unpack C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
-41 silly lockFile 81385a09-a-Wan-scmotc-node-modules-bcrypt tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt
-42 verbose lock tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt C:\Users\Shaina Wan\AppData\Roaming\npm-cache\81385a09-a-Wan-scmotc-node-modules-bcrypt.lock
-43 silly lockFile d2cde39e-m-cache-bcrypt-0-7-8-package-tgz tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
-44 verbose lock tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz C:\Users\Shaina Wan\AppData\Roaming\npm-cache\d2cde39e-m-cache-bcrypt-0-7-8-package-tgz.lock
+39 info c:\Users\User\scmotc\node_modules\bcrypt unbuild
+40 verbose tar unpack C:\Users\User\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
+41 silly lockFile 0fd041d8--User-scmotc-node-modules-bcrypt tar://c:\Users\User\scmotc\node_modules\bcrypt
+42 verbose lock tar://c:\Users\User\scmotc\node_modules\bcrypt C:\Users\User\AppData\Roaming\npm-cache\0fd041d8--User-scmotc-node-modules-bcrypt.lock
+43 silly lockFile 0563ed14-m-cache-bcrypt-0-7-8-package-tgz tar://C:\Users\User\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
+44 verbose lock tar://C:\Users\User\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz C:\Users\User\AppData\Roaming\npm-cache\0563ed14-m-cache-bcrypt-0-7-8-package-tgz.lock
 45 silly gunzTarPerm modes [ '755', '644' ]
 46 silly gunzTarPerm extractEntry package.json
 47 silly gunzTarPerm extractEntry .npmignore
@@ -159,10 +159,10 @@
 61 silly gunzTarPerm extractEntry test/async.js
 62 silly gunzTarPerm extractEntry test/repetitions.js
 63 silly gunzTarPerm extractEntry test/sync.js
-64 silly lockFile 81385a09-a-Wan-scmotc-node-modules-bcrypt tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt
-65 silly lockFile 81385a09-a-Wan-scmotc-node-modules-bcrypt tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt
-66 silly lockFile d2cde39e-m-cache-bcrypt-0-7-8-package-tgz tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
-67 silly lockFile d2cde39e-m-cache-bcrypt-0-7-8-package-tgz tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
+64 silly lockFile 0fd041d8--User-scmotc-node-modules-bcrypt tar://c:\Users\User\scmotc\node_modules\bcrypt
+65 silly lockFile 0fd041d8--User-scmotc-node-modules-bcrypt tar://c:\Users\User\scmotc\node_modules\bcrypt
+66 silly lockFile 0563ed14-m-cache-bcrypt-0-7-8-package-tgz tar://C:\Users\User\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
+67 silly lockFile 0563ed14-m-cache-bcrypt-0-7-8-package-tgz tar://C:\Users\User\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
 68 info preinstall bcrypt@0.7.8
 69 verbose readDependencies using package.json deps
 70 verbose readDependencies using package.json deps
@@ -196,25 +196,25 @@
 76 verbose addNamed [ 'bindings', '1.0.0' ]
 77 verbose addNamed [ '1.0.0', '1.0.0' ]
 78 silly lockFile f01e5454-bindings-1-0-0 bindings@1.0.0
-79 verbose lock bindings@1.0.0 C:\Users\Shaina Wan\AppData\Roaming\npm-cache\f01e5454-bindings-1-0-0.lock
+79 verbose lock bindings@1.0.0 C:\Users\User\AppData\Roaming\npm-cache\f01e5454-bindings-1-0-0.lock
 80 verbose url raw bindings
 81 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
 82 verbose url resolved https://registry.npmjs.org/bindings
-83 info trying registry request attempt 1 at 14:41:57
+83 info trying registry request attempt 1 at 21:57:32
 84 verbose etag "EF0U3ERBDZ107WR2K8OB2X3WQ"
 85 http GET https://registry.npmjs.org/bindings
 86 http 304 https://registry.npmjs.org/bindings
 87 silly registry.get cb [ 304,
-87 silly registry.get   { date: 'Fri, 06 Jun 2014 21:42:02 GMT',
+87 silly registry.get   { date: 'Fri, 13 Jun 2014 04:57:32 GMT',
 87 silly registry.get     server: 'Apache',
 87 silly registry.get     via: '1.1 varnish',
-87 silly registry.get     'last-modified': 'Fri, 06 Jun 2014 21:42:02 GMT',
+87 silly registry.get     'last-modified': 'Fri, 13 Jun 2014 04:57:33 GMT',
 87 silly registry.get     'cache-control': 'max-age=1',
 87 silly registry.get     etag: '"EF0U3ERBDZ107WR2K8OB2X3WQ"',
-87 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+87 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
 87 silly registry.get     'x-cache': 'HIT',
 87 silly registry.get     'x-cache-hits': '1',
-87 silly registry.get     'x-timer': 'S1402090922.364803,VS0,VE10',
+87 silly registry.get     'x-timer': 'S1402635452.992367,VS0,VE82',
 87 silly registry.get     vary: 'Accept',
 87 silly registry.get     'content-length': '0',
 87 silly registry.get     'keep-alive': 'timeout=10, max=50',
@@ -242,44 +242,41 @@
 91 silly resolved     _shasum: 'c3ccde60e9de6807c6f1aa4ef4843af29191c828',
 91 silly resolved     _from: 'bindings@1.0.0',
 91 silly resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.0.0.tgz' } ]
-92 info install bindings@1.0.0 into c:\Users\Shaina Wan\scmotc\node_modules\bcrypt
+92 info install bindings@1.0.0 into c:\Users\User\scmotc\node_modules\bcrypt
 93 info installOne bindings@1.0.0
-94 info c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings unbuild
-95 verbose tar unpack C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
-96 silly lockFile 961e4662-les-bcrypt-node-modules-bindings tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings
-97 verbose lock tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings C:\Users\Shaina Wan\AppData\Roaming\npm-cache\961e4662-les-bcrypt-node-modules-bindings.lock
-98 silly lockFile 84af139e-cache-bindings-1-0-0-package-tgz tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
-99 verbose lock tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz C:\Users\Shaina Wan\AppData\Roaming\npm-cache\84af139e-cache-bindings-1-0-0-package-tgz.lock
+94 info c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings unbuild
+95 verbose tar unpack C:\Users\User\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
+96 silly lockFile 74ab37e1-les-bcrypt-node-modules-bindings tar://c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings
+97 verbose lock tar://c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings C:\Users\User\AppData\Roaming\npm-cache\74ab37e1-les-bcrypt-node-modules-bindings.lock
+98 silly lockFile 8fa3cfbe-cache-bindings-1-0-0-package-tgz tar://C:\Users\User\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
+99 verbose lock tar://C:\Users\User\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz C:\Users\User\AppData\Roaming\npm-cache\8fa3cfbe-cache-bindings-1-0-0-package-tgz.lock
 100 silly gunzTarPerm modes [ '755', '644' ]
 101 silly gunzTarPerm extractEntry package.json
 102 silly gunzTarPerm extractEntry README.md
 103 silly gunzTarPerm extractEntry bindings.js
-104 silly lockFile 961e4662-les-bcrypt-node-modules-bindings tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings
-105 silly lockFile 961e4662-les-bcrypt-node-modules-bindings tar://c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings
-106 silly lockFile 84af139e-cache-bindings-1-0-0-package-tgz tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
-107 silly lockFile 84af139e-cache-bindings-1-0-0-package-tgz tar://C:\Users\Shaina Wan\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
+104 silly lockFile 74ab37e1-les-bcrypt-node-modules-bindings tar://c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings
+105 silly lockFile 74ab37e1-les-bcrypt-node-modules-bindings tar://c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings
+106 silly lockFile 8fa3cfbe-cache-bindings-1-0-0-package-tgz tar://C:\Users\User\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
+107 silly lockFile 8fa3cfbe-cache-bindings-1-0-0-package-tgz tar://C:\Users\User\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
 108 info preinstall bindings@1.0.0
 109 verbose readDependencies using package.json deps
 110 verbose readDependencies using package.json deps
 111 silly resolved []
-112 verbose about to build c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings
-113 info build c:\Users\Shaina Wan\scmotc\node_modules\bcrypt\node_modules\bindings
+112 verbose about to build c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings
+113 info build c:\Users\User\scmotc\node_modules\bcrypt\node_modules\bindings
 114 verbose linkStuff [ false,
 114 verbose linkStuff   false,
 114 verbose linkStuff   false,
-114 verbose linkStuff   'c:\\Users\\Shaina Wan\\scmotc\\node_modules\\bcrypt\\node_modules' ]
+114 verbose linkStuff   'c:\\Users\\User\\scmotc\\node_modules\\bcrypt\\node_modules' ]
 115 info linkStuff bindings@1.0.0
 116 verbose linkBins bindings@1.0.0
 117 verbose linkMans bindings@1.0.0
 118 verbose rebuildBundles bindings@1.0.0
 119 info install bindings@1.0.0
 120 info postinstall bindings@1.0.0
-121 verbose about to build c:\Users\Shaina Wan\scmotc\node_modules\bcrypt
-122 info build c:\Users\Shaina Wan\scmotc\node_modules\bcrypt
-123 verbose linkStuff [ false,
-123 verbose linkStuff   false,
-123 verbose linkStuff   false,
-123 verbose linkStuff   'c:\\Users\\Shaina Wan\\scmotc\\node_modules' ]
+121 verbose about to build c:\Users\User\scmotc\node_modules\bcrypt
+122 info build c:\Users\User\scmotc\node_modules\bcrypt
+123 verbose linkStuff [ false, false, false, 'c:\\Users\\User\\scmotc\\node_modules' ]
 124 info linkStuff bcrypt@0.7.8
 125 verbose linkBins bcrypt@0.7.8
 126 verbose linkMans bcrypt@0.7.8
@@ -288,10 +285,10 @@
 129 info install bcrypt@0.7.8
 130 verbose unsafe-perm in lifecycle true
 131 info bcrypt@0.7.8 Failed to exec install script
-132 info c:\Users\Shaina Wan\scmotc\node_modules\bcrypt unbuild
+132 info c:\Users\User\scmotc\node_modules\bcrypt unbuild
 133 info preuninstall bcrypt@0.7.8
 134 info uninstall bcrypt@0.7.8
-135 verbose true,c:\Users\Shaina Wan\scmotc\node_modules,c:\Users\Shaina Wan\scmotc\node_modules unbuild bcrypt@0.7.8
+135 verbose true,c:\Users\User\scmotc\node_modules,c:\Users\User\scmotc\node_modules unbuild bcrypt@0.7.8
 136 info postuninstall bcrypt@0.7.8
 137 error bcrypt@0.7.8 install: `node-gyp rebuild`
 137 error Exit status 1
@@ -303,9 +300,9 @@
 138 error You can get their info via:
 138 error     npm owner ls bcrypt
 138 error There is likely additional logging output above.
-139 error System Windows_NT 6.1.7601
+139 error System Windows_NT 6.2.9200
 140 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bcrypt"
-141 error cwd c:\Users\Shaina Wan\scmotc
+141 error cwd c:\Users\User\scmotc
 142 error node -v v0.10.28
 143 error npm -v 1.4.9
 144 error code ELIFECYCLE
