@@ -43,16 +43,46 @@
 		},
 		{
 			"id": "p4",
-			"title": "dob",
-			"input-type": ""
+			"input-type": "",
+			"response": [
+				"Email"
+			]
 		},
 		{
 			"id": "p5",
-			"title": "relation",
 			"input-type": "",
-			"placeholder": "Explain",
 			"response": [
-				""
+				"Home Phone"
+			]
+		},
+		{
+			"id": "p6",
+			"input-type": "",
+			"response": [
+				"Mobile Phone"
+			]
+		},
+		{
+			"id": "p7",
+			"input-type": "",
+			"response": [
+				"Date of Birth"
+			]
+		},
+		{
+			"id": "p8",
+			"title": "Are you or anyone in your immediate family a member of the Southern California Mothers of Twins Clubs, Inc.?",
+			"input-type": "",
+			"response": [
+				"Yes",
+				"No"		
+			]
+		},
+		{
+			"id": "p9",
+			"input-type": "",
+			"response": [
+				"If yes, please explain:"
 			]
 		},
 		{
@@ -61,17 +91,47 @@
 			"id": "educationID"
 		},
 		{
-			"id": "p6",
-			"title": "name",
+			"id": "p10",
 			"input-type": "",
-			"placeholder": "",
 			"response": [
-				"School Currently Attending",
-				"Graduation Date",
-				"Mailing Address",
-				"Zip Code",
-				"Telephone",
-				"Principal's Name",
+				"School Currently Attending"
+			]
+		},
+		{
+			"id": "p11",
+			"input-type": "",
+			"response": [
+				"Graduation Date"
+			]
+		},
+		{
+			"id": "p12",
+			"input-type": "",
+			"response": [
+				"Address",
+				"City",
+				"State",
+				"Zipcode"
+			]
+		},
+		{
+			"id": "p13",
+			"input-type": "",
+			"response": [
+				"School Phone"
+			]
+		},
+		{
+			"id": "p14",
+			"input-type": "",
+			"response": [
+				"Principal's Name"
+			]
+		},
+		{
+			"id": "p15",
+			"input-type": "",
+			"response": [
 				"Counselor's Name"
 			]
 		},
@@ -81,7 +141,7 @@
 			"id": "careerID"
 		},
 		{
-			"id": "p7",
+			"id": "p16",
 			"title": "plans",
 			"input-type": "",
 			"placeholder": "",
@@ -92,18 +152,23 @@
 			]
 		},
 		{
-			"id": "p8",
+			"id": "p17",
 			"title": "name",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Name of Institution or School",
-				"Mailing Address",
-				"Zip Code"
+				"Name of Institution or School Planning to Attend"
 			]
 		},
 		{
-			"id": "p9",
+			"id": "p18",
+			"input-type": "",
+			"response": [
+				"School Mailing Address including Zipcode"
+			]
+		},
+		{
+			"id": "p19",
 			"title": "Have you received written acceptance to this school?",
 			"input-type": "",
 			"placeholder": "",
@@ -113,24 +178,23 @@
 			]
 		},
 		{
-			"id": "p10",
+			"id": "p20",
 			"title": "Intended Living Situation",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Campus",
-				"Off Campus",
-				"Commute"
+				"On-Campus",
+				"Off Campus/Commute"
 			]
 		},	
 		{
-			"id": "p11",
+			"id": "p21",
 			"title": "Attendance",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Full-Time",
-				"Part-Time"
+				"Full-Time (12 units or more)",
+				"Part-Time (Less than 12 units)"
 			]
 		},
 		{
@@ -155,15 +219,38 @@
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"Employer Name",
-				"Net Monthly Income",
-				"Mailing Address",
-				"Zip Code",
-				"Telephone"
+				"Employer Name"
 			]
 		},
 		{
 			"id": "f3",
+			"title": "",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Net Monthly Income"
+			]
+		},
+		{
+			"id": "f4",
+			"title": "",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mailing Address including Zipcode"
+			]
+		},
+		{
+			"id": "f5",
+			"title": "",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Employer Phone"
+			]
+		},
+		{
+			"id": "f6",
 			"title": "Do you plan to work while attending school?",
 			"input-type": "",
 			"placeholder": "",
@@ -172,6 +259,10 @@
 				"Part-Time",
 				"Currently Unemployed"
 			]
+		},
+		{
+			"subsection-header": true,
+			"header": "Please complete Section A if dependent and Section B if independent"
 		},
 		{
 			"id": "f4",
@@ -184,28 +275,141 @@
 			]
 		},
 		{
-			"id": "p16",
-			"title": "name",
+			"section-header": true,
+			"header": "Section A: Dependent Students"
+		},
+		{
+			"id": "d1",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"First Name",
-				"Middle",
-				"Last Name"
+				"Total number of dependent children living at home"
 			]
 		},
 		{
-			"id": "p17",
+			"id": "d2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Ages of Dependent Children"
+			]
+		},						
+		{
+			"id": "d3",
 			"title": "name",
 			"input-type": "",
 			"placeholder": "",
 			"response": [
-				"First Name",
-				"Middle",
-				"Last Name"
+				"Father/Guardian's Name"
 			]
 		},
-
+		{
+			"id": "d4",
+			"title": "Do you live with him?",
+			"input-type": "",
+			"response": [
+				"Yes",
+				"No"
+			]
+		},
+		{
+			"id": "d5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Father/Guardian's Address including Zipcode"
+			]
+		},		
+		{
+			"id": "d6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Telephone"
+			]
+		},
+		{
+			"id": "d7",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Father/Guardian's Employer"
+			]
+		},
+		{
+			"id": "d8",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Income per Month: $"
+			]
+		},						
+		{
+			"id": "d9",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Father/Guardian's Employer Address including Zipcode"
+			]
+		},
+		{
+			"id": "d10",
+			"title": "name",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Name"
+			]
+		},
+		{
+			"id": "d11",
+			"title": "Do you live with her?",
+			"input-type": "",
+			"response": [
+				"Yes",
+				"No"
+			]
+		},
+		{
+			"id": "d12",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Address including Zipcode"
+			]
+		},		
+		{
+			"id": "d13",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Telephone"
+			]
+		},
+		{
+			"id": "d14",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Employer"
+			]
+		},
+		{
+			"id": "d15",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Income per Month: $"
+			]
+		},						
+		{
+			"id": "d16",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Mother/Guardian's Employer Address including Zipcode"
+			]
+		},				
 		{
 			"subsection-header": true,
 			"header": "Other sources of income (AFDC, Social Security, Unemployment, Child Support, etc)"
@@ -247,7 +451,7 @@
 		{
 			"textarea": true,
 			"id": "text4",
-			"placeholder": "Earnings"
+			"placeholder": "Contributions toward education"
 		},
 
 		{
@@ -265,7 +469,70 @@
 			"subsection-header": true,
 			"header": "End of SECTION A: DEPENDENT STUDENTS, Proceed to Work Experience Section"
 		},
-
+		{
+			"section-header": true,
+			"header": "Section B: Independent Students"
+		},
+		{
+			"id": "i1",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Single",
+				"Married",
+				"Separated",
+				"Divorced",
+				"Widowed"
+			]
+		},
+		{
+			"id": "i2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Total number of dependent children living at home"
+			]
+		},		
+		{
+			"id": "i3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Ages of Dependent Children"
+			]
+		},	
+		{
+			"id": "i4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Spouse's Name"
+			]
+		},
+		{
+			"id": "i5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Income per Month: $"
+			]
+		},						
+		{
+			"id": "i6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Spouse's Employer Address including Zipcode"
+			]
+		},
+		{
+			"id": "i7",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Telephone"
+			]
+		},	
 		{
 			"subsection-header": true,
 			"header": "Other sources of income (AFDC, Social Security, Unemployment, Child Support, etc)"
@@ -331,18 +598,191 @@
 			"header": "Work Experience",
 			"id": "workID"
 		},
-
+		{
+			"subsection-header": true,
+			"header": "List all employment since June of last year:"
+		},
+		{
+			"id": "11",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Place of Employment"
+			]
+		},
+		{
+			"id": "w2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Job Title"
+			]
+		},
+		{
+			"id": "w3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Started"
+			]
+		},
+		{
+			"id": "w4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Ended"
+			]
+		},
+		{
+			"id": "w5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Hourly Rate $"
+			]
+		},
+		{
+			"id": "w6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Full Time/Part Time"
+			]
+		},
 		{
 			"section-header": true,
 			"header": "Extracurricular Activities",
 			"id": "extracirricularID"
 		},
-
+		{
+			"subsection-header": true,
+			"header": "List school and/or community organization. Include year(s) of involvement, positions of leadership held and/or your participation in activity."
+		},
+		{
+			"id": "e1",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Years"
+			]
+		},
+		{
+			"id": "e2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Student Government/Clubs/Activities"
+			]
+		},
+		{
+			"id": "e3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Position/Participation/Contribution"
+			]
+		},
+		{
+			"id": "e4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Years"
+			]
+		},
+		{
+			"id": "e5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Community/Service Organization"
+			]
+		},
+		{
+			"id": "e6",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Position/Participation/Contribution"
+			]
+		},
+		{
+			"id": "e7",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Years"
+			]
+		},
+		{
+			"id": "e8",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Other"
+			]
+		},
+		{
+			"id": "e9",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Position/Participation/Contribution"
+			]
+		},
 		{
 			"section-header": true,
 			"header": "Application Checklist",
 			"id": "checklistID"
+		},
+		{
+			"id": "a1",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Completed and Signed SCMOTC Scholarship Application"
+			]
+		},
+		{
+			"id": "a2",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Most Current Official Transcript"
+			]
+		},
+		{
+			"id": "a3",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Two (2) letters of recommendation from non-family members. Please ask them to include phone numbers for possible follow-up contact by the Scholarship Commmitee"
+			]
+		},
+		{
+			"id": "a4",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Written Essay (minimum 300 words) on why you wish to continue your education and why you believe you should be considered for this scholarship award. Please include information on being a multiple or mother of multiples, family financial difficulties, career and educational goals. "
+			]
+		},				
+		{
+			"id": "a5",
+			"input-type": "",
+			"placeholder": "",
+			"response": [
+				"Attach a recent photograph of yourself to Application (photographs will not be returned)"
+			]
+		},
+		{
+			"section-header": true,
+			"header": "Certification"
+		},
+		{
+			"subsection-header": true,
+			"header": "In submitting this application, I certify that the information provided is complete and accurate to the best of my knowledge. I understand that my application will only be considered if all eligibility requirements are met and all materials are postmarked on or before the deadline"
 		}
-
 	]
 }
