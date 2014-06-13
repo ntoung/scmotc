@@ -109,38 +109,38 @@ $('#newApplicationSubmitButton').click(function(e)){
 	var attendance = $('#p21').val();
 
 
-	var financial_info = $('f1').val();
-	var financial_info_employed = $('f1').val();
-	var financial_info_emolyers_name = $('f2').val();
-	var financial_info_income = $('f3').val();
-	var financial_info_employer_number = $('f5').val();
-	var financial_info_mailing_address = $('f4').val();
-	var financial_info_mailing_address_street = $('f4').val();
-	var financial_info_mailing_address_zip = $('f4').val();
-	var financial_info_mailing_address_state = $('f4').val();
-	var financial_info_mailing_address_country = $('f4').val();
-	var financial_info_mailing_address_city = $('f4').val();
-	var financial_info_work_during_school = $('f6').val();
+	var financial_info = $('#f1').val();
+	var financial_info_employed = $('#f1').val();
+	var financial_info_emolyers_name = $('#f2').val();
+	var financial_info_income = $('#f3').val();
+	var financial_info_employer_number = $('#f5').val();
+	var financial_info_mailing_address = $('#f4').val();
+	var financial_info_mailing_address_street = $('#f4').val();
+	var financial_info_mailing_address_zip = $('#f4').val();
+	var financial_info_mailing_address_state = $('#f4').val();
+	var financial_info_mailing_address_country = $('#f4').val();
+	var financial_info_mailing_address_city = $('#f4').val();
+	var financial_info_work_during_school = $('#f6').val();
 
-	var dependent = $('f4').val();
-	var dependent_children_amount = $('d1').val();
-	var dependent_children_ages = $('d2').val();
+	var dependent = $('#f4').val();
+	var dependent_children_amount = $('#d1').val();
+	var dependent_children_ages = $('#d2').val();
 
-	var dependent_father_name = $('d3').val();
-	var dependent_living_with_father = $('d4').val();
-	var dependent_father_address = $('d5').val();
-	var dependent_father_number = $('d6').val();
-	var dependent_father_employer = $('d7').val();
-	var dependent_father_income = $('d8').val();
-	var dependent_father_work_address = $('d9').val();
+	var dependent_father_name = $('#d3').val();
+	var dependent_living_with_father = $('#d4').val();
+	var dependent_father_address = $('#d5').val();
+	var dependent_father_number = $('#d6').val();
+	var dependent_father_employer = $('#d7').val();
+	var dependent_father_income = $('#d8').val();
+	var dependent_father_work_address = $('#d9').val();
 
-	var dependent_mother_name = $('d10').val();
-	var dependent_living_with_mother = $('d11').val();
-	var dependent_mother_address = $('d12').val();
-	var dependent_mother_number = $('d13').val();
-	var dependent_mother_employer = $('d14').val();
-	var dependent_mother_income = $('d15').val();
-	var dependent_mother_work_address = $('d16').val();
+	var dependent_mother_name = $('#d10').val();
+	var dependent_living_with_mother = $('#d11').val();
+	var dependent_mother_address = $('#d12').val();
+	var dependent_mother_number = $('#d13').val();
+	var dependent_mother_employer = $('#d14').val();
+	var dependent_mother_income = $('#d15').val();
+	var dependent_mother_work_address = $('#d16').val();
 
 	var dependent_other_income 
 	var dependent_other_obligations = $('#text2').val();
