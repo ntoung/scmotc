@@ -36,10 +36,10 @@
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
           <form class="navbar-form navbar-right" style="margin-right:0px">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Username">
-              <input type="password" class="form-control" placeholder="Password">
+              <input type="text" class="form-control" placeholder="Username" id="username">
+              <input type="password" class="form-control" placeholder="Password" id="password">
             </div>
-            <button type="login" class="btn btn-default btn-sm"><strong>Log In</strong></button>
+            <button type="button" class="btn btn-default btn-sm" id="loginID"><strong>Log In</strong></button>
             <a href="register">
               <button type="register" class="btn btn-success btn-sm"><strong>Register</strong></button>
             </a>
@@ -88,27 +88,6 @@
           <div class="form-group">
             <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
           </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="userEmail" placeholder="Enter email">
-          </div>
 
 
 
@@ -121,7 +100,7 @@
 
               {{#if section-header}}
                 <!-- Section Header -->
-                <h2 class="section-header">{{header}}</h2>
+                <h2 class="section-header" id="{{id}}">{{header}}</h2>
               {{/if}}
 
               {{#if subsection-header}}
@@ -152,12 +131,14 @@
               {{/if}}
               <!-- Input Field -->
 
+
+
               <!-- Radio -->
             <br>
             {{/each}}
           </div>
 
-
+          <!--
           <div class="alert alert-success">
             Well done! You successfully read this important alert message.
           </div>
@@ -181,7 +162,6 @@
               </label>
             </div>
             <button id="newProjectSubmitButton" type="button" class="btn btn-default">Submit</button>
-            <button type="submit" class="btn btn-default">Submit</button>
           </form>
           
           <span>
@@ -190,13 +170,21 @@
 
             
             </div>
-
-          </span>
+            
+          </span> -->
         <!-- </nav>  -->
       </div>
       <div class="col-md-3">
           <div class="scmotc-docs-sidebar hidden-print" role="complementary">
             <ul class="nav scmotc-docs-sidenav">
+              {{#each form-field}}
+                {{#if section-header}}
+                  <li>
+                    <a href="#{{../id}}">{{header}}</a>
+                  </li>
+                {{/if}}
+              {{/each}}
+              <!--
               <li>
                 <a href="#glyphicons">Glyphicons</a>
                 <ul class="nav">
@@ -336,10 +324,11 @@
                 </ul>
               </li>
               <li><a href="#wells">Wells</a></li>
-            </ul>
+              -->
             <a class="back-to-top" href="#top">
               Back to top
             </a>
+            </ul>
           </div>
         </div>
     </div>
@@ -409,5 +398,6 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/scmotc.js"></script>
 </body>
 </html>

@@ -4,7 +4,8 @@
 	"form-field": [
 		{
 			"section-header": true,
-			"header": "Applicant's Personal Information"
+			"header": "Applicant's Personal Information",
+			"id": "applicantID"
 		},
 		{
 			"id": "p1",
@@ -56,7 +57,8 @@
 		},
 		{
 			"section-header": true,
-			"header": "Educational Background"
+			"header": "Educational Background",
+			"id": "educationID"
 		},
 		{
 			"id": "p6",
@@ -75,7 +77,8 @@
 		},
 		{
 			"section-header": true,
-			"header": "Educational or Career Plans"
+			"header": "Educational or Career Plans",
+			"id": "careerID"
 		},
 		{
 			"id": "p7",
@@ -132,7 +135,8 @@
 		},
 		{
 			"section-header": true,
-			"header": "Financial Information"
+			"header": "Financial Information",
+			"id": "financialID"
 		},
 		{
 			"id": "f1",
@@ -324,21 +328,20 @@
 
 		{
 			"section-header": true,
-			"header": "Work Experience"
+			"header": "Work Experience",
+			"id": "workID"
 		},
 
 		{
 			"section-header": true,
-			"header": "Extracurricular Activities"
+			"header": "Extracurricular Activities",
+			"id": "extracirricularID"
 		},
 
 		{
 			"section-header": true,
-			"header": "Application Checklist"
-		},
-		{
-			"section-header": true,
-			"header": "Application Checklist"
+			"header": "Application Checklist",
+			"id": "checklistID"
 		}
 
 	]

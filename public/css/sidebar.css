@@ -196,6 +196,7 @@ media(min-width: 768px) {.scmotc-docs-sidebar {
         padding-left: 20px
     }
 }.scmotc-docs-sidenav {
+    position: fixed;
     margin-top: 20px;
     margin-bottom: 20px
 }.scmotc-docs-sidebar.nav > li > a {

@@ -58,21 +58,35 @@ function initializePage() {
 	});
 
 	$('#newApplicationSubmitButton').click(function(e) {
-		console.log('clicked');
-		var title = $('#q1').val();
-		var image_url = $('#new-project-form #image_url').val();
-		var date = $('#new-project-form #date').val();
-		var summary = $('#new-project-form #summary').val();
-		var json = {
-			'project_title': title,
-			'image_url': image_url,
-			'date':  date,
-			'summary': summary
-		};
+		// console.log('clicked');
+		// var title = $('#q1').val();
+		// var image_url = $('#new-project-form #image_url').val();
+		// var date = $('#new-project-form #date').val();
+		// var summary = $('#new-project-form #summary').val();
+		// var json = {
+		// 	'project_title': title,
+		// 	'image_url': image_url,
+		// 	'date':  date,
+		// 	'summary': summary
+		// };
+		console.log(twinStatus);
 		$.post('/project/new', json, function() {
 			window.location.href = '/'; // reload the page
 		});
 	});
 
-	$('#guidelineSignature').signature({guideline: true});
+	$('#loginID').click(function(e) {
+		var username = $('#username').val();
+		var password = $('#password').val();
+		var json = {
+			'username': username,
+			'password': password
+		};
+		
+		$.post('/project/new', json, function() {
+			window.location.href = '/'; // reload the page
+		});
+	});
+
+	// $('#guidelineSignature').signature({guideline: true});
 }
