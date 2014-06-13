@@ -1,0 +1,624 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>SCMOTC</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->        
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+      <link rel="stylesheet" type="text/css" href="css/scmotc.css">
+      <script src="/js/d3.js" charset="utf-8"></script>
+      <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+
+</head>
+
+<body>
+      <div class="container">
+      	<h1>Southern California Mothers of Twins Club, Inc.</h1>
+        
+
+        <form role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword2">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Sign in</button>
+        </form>
+
+        <address>
+          <strong>Twitter, Inc.</strong><br>
+          795 Folsom Ave, Suite 600<br>
+          San Francisco, CA 94107<br>
+          <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
+
+        <address>
+          <strong>Full Name</strong><br>
+          <a href="mailto:#">first.last@example.com</a>
+        </address>
+        <a href="/routes/application"></a>
+
+        <div class="checkboxes">
+          <label>
+        <p>  
+          <b><i><small>I am a: </small></b></i>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><i><small> Twin</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Triplet</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Quad or Higher</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Mother of Multiples</small></b></i>
+          </label>
+          </div>
+        </p>
+
+        <p>
+        <div class="row">
+         <div class="col-xs-4">
+          <input type="text" class="form-control" placeholder="First name">
+         </div>
+        <div class="col-xs-4">
+         <input type="text" class="form-control" placeholder="Middle name">
+        </div>
+        <div class="col-xs-4">
+         <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+    </p>
+
+     <p>
+      <div class="row">
+        <div class="col-xs-4">
+         <input type="text" class="form-control" placeholder="Address">
+         </div>
+         <div class="col-xs-2">
+         <input type="text" class="form-control" placeholder="City">
+        </div>
+        <div class="col-xs-2">
+         <input type="text" class="form-control" placeholder="State">
+        </div>
+        <div class="col-xs-2">
+         <input type="text" class="form-control"  placeholder="Zip">
+        </div>
+         <div class="col-xs-2">
+         <input type="text" class="form-control"   placeholder="County">
+          </div>
+        </div>
+        </p>  
+
+      <p>
+      <div class="row">
+        <div class="col-xs-4">
+         <input type="text" class="form-control" placeholder="Enter email">
+         </div>
+         <div class="col-xs-3">
+         <input type="text" class="form-control" placeholder="Telephone (___) (_______)">
+        </div>
+       </div> 
+      </p> 
+
+      <p>
+       <div class="row">
+        <div class="col-xs-3">
+        <div class="input-group">
+        <span class="input-group-addon">Date of Birth </span>
+        <input type="text" class="form-control"      placeholder="(MM/DD/YYYY)">
+       </div>
+     </div>
+   </div>
+      </p>  
+      
+      <p>
+      <div class="checkboxes">
+          <label>
+          <b><small>Are you or anyone in you immediate family a member of the Southern California Mother of Twins Clubs, Inc.? </small></b>
+            <span style="padding-left:60px">
+            <input type="checkbox">
+            <b><i><small> Yes</small></b></i>
+            <span style="padding-left:30px">
+            <input type="checkbox">
+            <b><i><small> No</small></b></i>
+          </label>
+          </div>
+        </p>
+
+       <b><small>If yes,please explain:</small></b>
+       <p>
+       <textarea rows="4" cols="50">
+       </textarea>
+       </p>
+       <p>
+        <b><font size ="3">EDUCATIONAL BACKGROUND</font></b>
+      </p>
+       
+      <p>
+        <div class="row">
+        <div class="col-xs-6">
+        <div class="input-group">
+        <span class="input-group-addon">School Currently Attending</span>
+        <input type="text" class="form-control"      placeholder="School Name">
+       </div>
+        </div>
+        <div class="row">
+         <div class="col-xs-3">
+          <div class="input-group">
+           <span class="input-group-addon">Graduation Date </span>
+            <input type="text" class="form-control"      placeholder="(MM/DD/YYYY)">
+          </div>
+         </div>
+        </div>
+        </div>
+      </p>  
+
+       <p>
+      <div class="row">
+        <div class="col-xs-7">
+         <input type="text" class="form-control" placeholder="Mailing address including Zip Code">
+         </div>
+         <div class="col-xs-3">
+         <input type="text" class="form-control" placeholder="Telephone (___) (________)">
+        </div>
+      </div>
+        </p>
+
+        <p>
+        <div class="row">
+        <div class="col-xs-5">
+        <div class="input-group">
+        <span class="input-group-addon">Principal's Name</span>
+        <input type="text" class="form-control"      placeholder="">
+       </div>
+        </div>
+        <div class="row">
+         <div class="col-xs-5">
+          <div class="input-group">
+           <span class="input-group-addon">Counselor's Name </span>
+            <input type="text" class="form-control"      placeholder="">
+          </div>
+         </div>
+        </div>
+        </div>
+      </p> 
+
+       <p>
+        <b><font size ="3">EDUCATIONAL/CAREER PLANS</font></b>
+      </p>
+       <div class="checkboxes">
+          <label>
+        <p>  
+          <b><small>4 yr College/University</small></b> 
+              <input type="checkbox">
+                <span class="form-checkbox">
+            <b><small> Community College</small></b>
+            <input type="checkbox">
+            <span class="form-checkbox">
+            <b><small> Trade/Vo-Tech</small></b>
+            <input type="checkbox">
+          </label>
+          </div>
+        </p>
+ 
+    <p>
+        <div class="row">
+        <div class="col-xs-8">
+        <div class="input-group">
+        <span class="input-group-addon">Name of Institution/School planning to attend</span>
+        <input type="text" class="form-control"      placeholder="School Name">
+       </div>
+        </div>
+        </div>
+      </p>  
+
+       <p>
+      <div class="row">
+        <div class="col-xs-8">
+         <input type="text" class="form-control" placeholder="Mailing address including Zip Code">
+         </div>
+      </div>
+        </p>
+
+         <div class="checkboxes">
+          <label>
+        <p>  
+          <b><small>Have you received written acceptance to this school? </small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small> Yes</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> No</small></b>
+          </label>
+          </div>
+        </p>
+
+       <div class="checkboxes">
+          <label>
+          <b><small>Plan to: </small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small> live on campus</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> live off campus/commute</small></b>
+          </label>
+          </div>
+
+        <div class="checkboxes">
+          <label>
+        <p>  
+          <b><small>Plan to: </small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small>attend full time (12 units or more)</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> attend part-time(less than 12 units)</small></b>
+          </label>
+          </div>
+        </p>
+
+       <p>
+        <b><font size ="3">FINANCIAL INFORMATION</font></b>
+       </p>
+
+       <div class="checkboxes">
+          <label>
+        <p>  
+          <b><small>Are you currently employed?</small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small> Yes,Full Time</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> Yes,Part Time</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> No</small></b>
+          </label>
+          </div>
+        </p>
+
+       <p>
+        <label>
+         <b><small>Employer Name :</small></b>
+         <input id="Text1" class="myClass" type="text" value="" name="textBox" />
+          <span class="form-checkbox">
+         <b><small>Your Net Monthly Income :</small></b>
+          <input id="Password1" type="password" name="password" />
+        </label>  
+       </p>
+
+       <p>
+        <div class="row">
+          <div class="col-xs-7">
+           <input type="text" class="form-control" placeholder="Mailing address including Zip Code">
+          </div>
+         <div class="col-xs-3">
+          <input type="text" class="form-control" placeholder="Telephone (___) (________)">
+         </div>
+        </div>
+      </p>
+
+      <div class="checkboxes">
+          <label>
+        <p>  
+          <b><small>Do you plan to work while attending school?</small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small> Yes,Full Time</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> Yes,Part Time</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> No</small></b>
+          </label>
+          </div>
+        </p>
+
+        <label> <font size="3">Please complete Section A OR Section B</font></label>
+
+        <p>
+          <b><u><font size="3">SECTION A: Dependent Students</b></u></font>
+        </p>
+
+      <p>
+        <label>
+         <b><small>Total number of dependent children living at home :</small></b>
+         <input id="Text1" class="myClass" type="text" size="6" value="" name="textBox" />
+          <span class="form-checkbox">
+         <b><small>Ages of Dependent Children :</small></b>
+          <input id="Password1" type="password" size="6" name="password" />
+        </label>  
+       </p>
+
+       <p>
+        <div class="row">
+        <div class="col-xs-5">
+        <div class="input-group">
+        <span class="input-group-addon">Father/Guardian's Name</span>
+        <input type="text" class="form-control"      placeholder="">
+       </div>
+        </div>
+         <b><small>Do you live with him?</small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small> Yes</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> No</small></b>
+        </div>
+      </p>  
+
+       <p>
+        <div class="row">
+          <div class="col-xs-7">
+           <input type="text" class="form-control" placeholder="Father/Guardian's Address including Zip Code">
+          </div>
+         <div class="col-xs-3">
+          <input type="text" class="form-control" placeholder="Telephone (___) (________)">
+         </div>
+        </div>
+      </p>
+
+       <p>
+        <label>
+         <b><small>Father/Guardian Employer Name :</small></b>
+         <input id="Text1" class="myClass" type="text"size="28" value="" name="textBox" />
+          <span class="form-checkbox">
+         <b><small>Monthly Income :</small></b>
+          <input id="Password1" type="password" name="password" />
+        </label>  
+       </p>
+
+       <p>
+        <div class="row">
+          <div class="col-xs-7">
+           <input type="text" class="form-control" placeholder="Address including Zip Code">
+          </div>
+        </div>
+      </p>
+
+      <p>
+        <div class="row">
+        <div class="col-xs-5">
+        <div class="input-group">
+        <span class="input-group-addon">Mother/Guardian's Name</span>
+        <input type="text" class="form-control"      placeholder="">
+       </div>
+        </div>
+         <b><small>Do you live with her?</small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><small> Yes</small></b>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><small> No</small></b>
+        </div>
+      </p>  
+
+       <p>
+        <div class="row">
+          <div class="col-xs-7">
+           <input type="text" class="form-control" placeholder="Mother/Guardian's Address including Zip Code">
+          </div>
+         <div class="col-xs-3">
+          <input type="text" class="form-control" placeholder="Telephone (___) (________)">
+         </div>
+        </div>
+      </p>
+
+       <p>
+        <label>
+         <b><small>Mother/Guardian Employer Name :</small></b>
+         <input id="Text1" class="myClass" type="text" size="28"value="" name="textBox" />
+          <span class="form-checkbox">
+         <b><small>Monthly Income :</small></b>
+          <input id="Password1" type="password" name="password" />
+        </label>  
+       </p>
+
+       <p>
+        <div class="row">
+          <div class="col-xs-7">
+           <input type="text" class="form-control" placeholder="Address including Zip Code">
+          </div>
+        </div>
+      </p>
+
+      <b><small>Other sources of income (AFDC,Social Security, Unemployment,Child Support, etc.):</small></b>
+      <p>
+       <textarea rows="1" cols="80">
+       </textarea>
+      </p>
+
+      <b><small>Please list any other financial obligations (car payment, childcare, etc):</small></b>
+       <p>
+       <textarea rows="1" cols="80">
+       </textarea>
+       </p>
+
+       <b><small>Please explain any special financial circumstances which may prevent financial assistance from your parents:</small></b>
+       <p>
+       <textarea rows="3" cols="80">
+       </textarea>
+       </p>
+
+       <b><small>How much do you plan to contribute toward your education from present earnings/savings? If you do not plan to work, please explain why.</small></b>
+       <p>
+       <textarea rows="3" cols="80">
+       </textarea>
+       </p>
+
+       <b><small>Have you applied for or been awarded any other scholarship? If yes, please list from whom and amounts awarded:</small></b>
+       <p>
+       <textarea rows="2" cols="80">
+       </textarea>
+       </p>
+
+       <label> <font size="3">(End of <u>SECTION A: DEPENDENT STUDENTS</u>, Proceed to Work Experience Section)</font></label>
+
+       <p>
+          <b><u><font size="3">SECTION B: InDependent Students</b></u></font>
+        </p>
+
+         <div class="checkboxes">
+          <label>
+        <p>  
+          <b><small>Are You: </small></b>
+            <span class="form-checkbox"> 
+              <input type="checkbox">
+            <b><i><small> Single</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Married</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Separated</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Divorced</small></b></i>
+            <span class="form-checkbox">
+            <input type="checkbox">
+            <b><i><small> Widowed</small></b></i>
+          </label>
+          </div>
+        </p>
+
+        <p>
+        <label>
+         <b><small>Total number of dependent children living at home :</small></b>
+         <input id="Text1" class="myClass" type="text" size="6" value="" name="textBox" />
+          <span class="form-checkbox">
+         <b><small>Ages of Dependent Children :</small></b>
+          <input id="Password1" type="password" size="6" name="password" />
+        </label>  
+       </p>
+
+       <p>
+        <div class="row">
+        <div class="col-xs-5">
+        <div class="input-group">
+        <span class="input-group-addon">Spouse's Name</span>
+        <input type="text" class="form-control"      placeholder="">
+      </div>
+    </div>
+         <b><small>Monthly Income :</small></b>
+          <input id="Password1" type="password" name="password" />
+       </div>
+      </p>  
+
+       <p>
+        <div class="row">
+          <div class="col-xs-7">
+           <input type="text" class="form-control" placeholder="Spouse Employer & Address including Zip Code">
+          </div>
+         <div class="col-xs-3">
+          <input type="text" class="form-control" placeholder="Telephone (___) (________)">
+         </div>
+        </div>
+      </p>
+
+      <b><small>Other sources of income (AFDC,Social Security, Unemployment,Child Support, etc.):</small></b>
+      <p>
+       <textarea rows="1" cols="80">
+       </textarea>
+      </p>
+
+      <b><small>Please list any other financial obligations (car payment, childcare, etc):</small></b>
+       <p>
+       <textarea rows="1" cols="80">
+       </textarea>
+       </p>
+
+       <b><small>Please explain any special financial circumstances which may prevent financial assistance from your parents:</small></b>
+       <p>
+       <textarea rows="3" cols="80">
+       </textarea>
+       </p>
+
+       <b><small>How much do you plan to contribute toward your education from present earnings/savings? If you do not plan to work, please explain why.</small></b>
+       <p>
+       <textarea rows="3" cols="80">
+       </textarea>
+       </p>
+
+       <b><small>Have you applied for or been awarded any other scholarship? If yes, please list from whom and amounts awarded:</small></b>
+       <p>
+       <textarea rows="2" cols="80">
+       </textarea>
+       </p>
+
+       <label> <font size="3">(End of <u>SECTION A: DEPENDENT STUDENTS</u>, Proceed to Work Experience Section)</font></label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+      
+             
+            
+          
+
+   
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
